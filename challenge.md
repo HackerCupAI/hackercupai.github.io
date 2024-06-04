@@ -14,54 +14,12 @@ TBD: For the closed evaluation track, the only limitation is that an inference t
 
 </p>
 
-## Approved Base models:
-
-<p style='text-align: justify;'>
-The starting model for the competition should be an open model. Examples of licenses we'll accept are [MIT](https://spdx.org/licenses/MIT.html), [Apache 2](https://www.apache.org/licenses/LICENSE-2.0), [BigScience RAIL](https://bigscience.huggingface.co/blog/the-bigscience-rail-license).
-
-</p>
-
-* Bloom
-* Cerebras (btlm, GPT)
-* DeBERTa
-* DeciLM-6B
-* DistilBERT
-* Electra
-* Falcon
-* GPT2
-* GPT Neo, J, NeoX, Pythia
-* InternLM
-* Llama 2 or Llama 3
-* Mistral
-* MPT
-* OpenLLaMA
-* OPT
-* Persimmon
-* Qwen
-* Red Pajama Base
-* RoBERTa
-* T5 (not Flan-T5)
-* UL2
-
 
 ## Datasets:
 
 <p style='text-align: justify;'>
-You are welcome to use any open sourced dataset. For example:
-</p>
-
-* [Databricks-Dolly-15](https://huggingface.co/datasets/databricks/databricks-dolly-15k)
-* [OpenAssistant Conversations Dataset (oasst1)](https://huggingface.co/datasets/OpenAssistant/oasst1)
-* [The Flan Collection](https://github.com/google-research/FLAN/tree/main/flan/v2)
-* [AllenAI Dolma](https://huggingface.co/datasets/allenai/dolma)
-* [RedPajama-Data-1T](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T)
-* [LIMA](https://huggingface.co/datasets/GAIR/lima)
-
+You are welcome to use any open sourced dataset or create your own dataset as long as you are also willing to open source it. 
 You are also allowed to use LLM generated datasets provided the license permits it.
-
-<br>
-
-<p style='text-align: justify;'>
 Under no circumstances should you use data that infringes upon data usage agreements, copyright laws, or privacy policies
 </p>
 
@@ -77,7 +35,7 @@ The results will be ranked in four leaderboards: one for each of the two AI trac
 
 The ranking used to declare independent winners for each of the two AI tracks, and for awarding sponsor prizes in the Open Track, will be calculated as:
 
-\[Score Formula Placeholder\]
+![score](images/score.png)
 
 Where:
 - `l` is the number of rounds not counting the first practice round,
@@ -91,7 +49,7 @@ We will announce 2 winners for this competition, one for each track above, each 
 
 If multiple competitors have the same score across rounds, we will tie-break using a partial credit system based on the number of test cases that pass:
 
-\[Tie-break Score Formula Placeholder\]
+![tie](images/tie.png)
 
 Where:
 - `l` is the number of rounds, not counting the first practice round,
@@ -106,7 +64,7 @@ This ensures that a competitor must surpass a certain performance level to quali
 
 For informational purposes only, we will jointly rank Human and AI submissions in a single leaderboard. The scoring of AI submissions in this leaderboard will adhere to the same evaluation methodology applied to human contestants in the Hacker Cup. Specifically, credit will only be awarded if all test cases pass for a given problem:
 
-\[Ranking Formula Placeholder\]
+![rank](images/rank.png)
 
 Where:
 - `l` is the number of rounds not counting the first practice round,

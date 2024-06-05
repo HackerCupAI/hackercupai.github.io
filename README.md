@@ -18,3 +18,5 @@ Build the site
 bundle install
 bundle exec jekyll serve
 ```
+
+If it worked you should see an output in your console like `Server address: http://127.0.0.1:4000`

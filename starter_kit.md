@@ -6,9 +6,9 @@ layout: default
 
 
 
-TBD
+<!-- TBD
 * Dataset link
-* Finetuning loop?
+* Finetuning loop? -->
 
 Please join us on Discord for discussions and up-to-date announcements:
 <br>

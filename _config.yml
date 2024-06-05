@@ -8,19 +8,20 @@ timezone: America/New_York
 
 navigation:
   Home: "index"
-  Challenge: "challenge"
-  Rules: "rules"
+  # Challenge: "challenge"
+  # Rules: "rules"
+  # Prizes: "prizes"
+  # Starter Kit: "starter_kit"
+  # Registration: "registration"
+  # Leaderboard: "leaderboard"
+  # Organizers: "organizers"
+  # Advisors: "advisors"
+  # Schedule: "schedule"
+
   # Timeline: "dates"
-  Prizes: "prizes"
-  Starter Kit: "starter_kit"
-  Registration: "registration"
-  Leaderboard: "leaderboard"
-  Organizers: "organizers"
-  Advisors: "advisors"
-  Schedule: "schedule"
   # Invited Speakers: "speakers"
   # FAQ: "faq"
-  Sponsors: "sponsors"
+  # Sponsors: "sponsors"
   # Q&A: "question"
 markdown: kramdown
 

@@ -16,11 +16,11 @@ navigation:
   Registration: "registration"
   Leaderboard: "leaderboard"
   Organizers: "organizers"
-  Advisors: "advisors"
+  # Advisors: "advisors"
   Schedule: "schedule"
   # Invited Speakers: "speakers"
   # FAQ: "faq"
-  Sponsors: "sponsors"
+  # Sponsors: "sponsors"
   # Q&A: "question"
 markdown: kramdown
 

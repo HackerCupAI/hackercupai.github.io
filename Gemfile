@@ -8,5 +8,5 @@ gem 'jekyll-spaceship'
 gem 'kramdown-math-katex'
 gem 'katex'
 gem 'execjs'
-
+gem 'webrick'
 gem 'duktape'

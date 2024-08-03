@@ -2,7 +2,12 @@
 layout: default
 ---
 
-Coming soon, the Hacker AI Cup. the world’s first AI Coding Competition. Please join us on Discord for discussions and up-to-date announcements:
+The world's first competitive programming AI competition from the team that brought you the 2023 NeurIPS LLM efficiency competition
+
+<br>
+
+[2024 AI Hacker Cup](https://www.facebook.com/codingcompetitions/hacker-cup/2024)
+
 
 <br>
 
